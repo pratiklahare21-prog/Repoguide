@@ -1,0 +1,13 @@
+{
+  "name": "repoguide",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "AI onboarding assistant for open-source repos, powered by a local open-weight model (Ollama).",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "warm": "npm run warm --prefix server --"
+  },
+  "devDependencies": { "concurrently": "^9.1.0" }
+}
