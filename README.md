@@ -92,7 +92,6 @@ repoguide/
 ├── client/src/       # React UI (App.tsx, store.ts, api.ts)
 └── docs/             # DEMO.md, TEAM.md, CHECKLIST.md
 ```
-
 ## Troubleshooting
 - **"Ollama is not running"**: run `ollama serve`. **"Model not installed"**: `ollama pull <OLLAMA_MODEL>`.
 - **"GitHub rate limit reached"**: add `GITHUB_TOKEN` to `.env`.
