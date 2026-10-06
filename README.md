@@ -99,5 +99,5 @@ repoguide/
 - **Slow or invalid output**: use a smaller model (`qwen2.5:3b`) or a bigger one (`qwen2.5:7b`) for better quality.
 
 ## License
-MIT. See [LICENSE](LICENSE).
+See [LICENSE](LICENSE).
 "# Repoguide" 
